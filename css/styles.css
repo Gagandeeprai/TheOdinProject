@@ -1,0 +1,179 @@
+/* ================= GOOGLE FONT ================= */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ================= HERO ================= */
+
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px 120px 100px;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+#links a {
+    color: #E5E7EB;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 18px;
+}
+
+/* Hero Content */
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.hero-text {
+    max-width: 460px;
+}
+
+#main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-bottom: 10px;
+}
+
+#sub-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 20px;
+}
+
+#sign-up {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    padding: 10px 36px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.hero-image img {
+    width: 420px;
+    border-radius: 6px;
+}
+
+/* ================= INFORMATION ================= */
+
+.information {
+    padding: 60px 120px;
+    text-align: center;
+}
+
+#info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 50px;
+}
+
+#info-images {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.info-card {
+    width: 160px;
+    font-size: 14px;
+    color: #1F2937;
+}
+
+.info-card img {
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    border: 4px solid #3882F6;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* ================= QUOTE ================= */
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 80px 200px;
+    margin: 80px 0;
+}
+
+.quote p:first-child {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote p:last-child {
+    text-align: right;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: #1F2937;
+}
+
+/* ================= CALL TO ACTION ================= */
+
+#sign {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 0 120px 80px;
+    padding: 50px 80px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-title {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.sign-subtitle {
+    font-size: 16px;
+    color: #E5E7EB;
+}
+
+#sign button {
+    background-color: transparent;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    padding: 8px 34px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* ================= FOOTER ================= */
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 30px;
+    font-size: 14px;
+}
